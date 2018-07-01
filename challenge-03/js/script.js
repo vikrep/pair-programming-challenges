@@ -1,13 +1,13 @@
 const sum = (x,y) => {
-  x+y
+  return x+y
 }
 
 const mutiply = (x,y) => {
-  x%y
+  return x*y
 }
 
 const substract = (x,y) => {
-  y-x
+  return x-y
 }
 
 alert(`SUM OF 1 and 4 ${sum(1,4)}`)
